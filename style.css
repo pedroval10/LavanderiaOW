@@ -159,6 +159,10 @@ h1{
 .item-select-slid {
     background: #FFF  !important;
 }
+.Information{
+    display: flex;
+    justify-content: center;
+}
 @media screen and (max-width: 460px){
     .content_slider h2 {
         font-size: 15pt !important;
