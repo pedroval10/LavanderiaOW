@@ -8,6 +8,7 @@
 .containerLogo{
     display: flex;
     justify-content: space-around;
+    padding: 4vh;
 }
 h1{
     display: flex;
@@ -27,6 +28,9 @@ h1{
     display: flex;
     justify-content: end;
 }
+.Information{
+    padding:5vh;
+}
 *{
     margin: 0;
     padding: 0;
@@ -42,7 +46,7 @@ h1{
     position: relative;
     display: block;
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     min-height: 500px;
 }
 #slider li {
@@ -63,6 +67,7 @@ h1{
     z-index: -1;
     opacity: 0;
 }
+
 #container-slider .arrowPrev, #container-slider .arrowNext{
     font-size: 30pt;
     color: rgba(204, 204, 204, 0.65);
