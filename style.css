@@ -5,8 +5,27 @@
     color: antiquewhite;
     
 }
+.containerLogo{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
 .tamañoImagenLogo{
     height: 20vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+.comtact{
+    display: flex;
+    justify-content: end;
 }
 *{
     margin: 0;
