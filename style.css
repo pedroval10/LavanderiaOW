@@ -161,7 +161,7 @@ h1{
 }
 .Information{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 @media screen and (max-width: 460px){
     .content_slider h2 {
