@@ -30,8 +30,11 @@ h1 {
 }
 
 .tamañoImagen {
-
+    height: 40vh;
+    width: 50vh;
 }
+
+
 
 
 .comtact {
@@ -208,6 +211,11 @@ h1 {
     .content_slider p {
         font-size: 12pt !important;
     }
+    .tamañoImagen {
+        height: 20vh;
+        width: 40vh;
+    }
+}
 
     #container-slider .arrowPrev,
     #container-slider .arrowNext {
@@ -237,13 +245,17 @@ h1 {
     }
 }
 
-    /*----------------------*/
-    .containerLogo {}
+/*----------------------*/
+.containerLogo {}
 
-    @media screen and (max-width: 375px){
-.Information{
-    flex-direction: column;
-}
+@media screen and (max-width: 375px) {
 
+    .Information {
+        flex-direction: column;
     }
-    
+
+    .tamañoImagen {
+        height: 19vh;
+        width: 30vh;
+    }
+}
